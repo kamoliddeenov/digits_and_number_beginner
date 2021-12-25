@@ -7,7 +7,9 @@ def get_length(num):
     x3=num%10
     num//=10
     x4=num%10
-    x5=num//10
+    num//=10
+    x5=num%10
+    num//=10
 
     return x1+x2+x3+x4+x5
 
