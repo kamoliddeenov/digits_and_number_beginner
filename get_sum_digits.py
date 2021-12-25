@@ -1,5 +1,5 @@
 #Find the sum of digits in an integer
-def get_length(num):
+def get_sum_digits(num):
     count=0
     x1=num%10
     num//=10
@@ -15,4 +15,4 @@ def get_length(num):
     count = x1+x2+x3+x4+x5
     return count
 
-print(get_length(555))
+print(get_sum_digits(555))
