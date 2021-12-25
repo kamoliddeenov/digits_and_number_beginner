@@ -1,15 +1,9 @@
-#get number of digits in an int?
+#find count of digits in an integer without using for, len, while
 def get_length(num):
-    """
-    Get length of integer
+    count=0
+    while num>0:
+        count=count+1
+        num=num//10
+    return count
 
-    Args:
-        num (int): integer to get length of
-
-    Returns:
-        int: length of integer
-    """
-    # return number of digits in integer
-    return 
-
- 
+print(get_length(15))
