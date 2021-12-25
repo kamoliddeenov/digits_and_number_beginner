@@ -11,4 +11,4 @@ def get_length(num):
 
     return x1+x2+x3+x4+x5
 
-print(get_length(55555))
+print(get_length(555))
